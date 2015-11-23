@@ -1,0 +1,9 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="240dp"
+    android:minHeight="240dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/initial"
+    android:configure="com.blazeroni.reddit.widget.WidgetConfigurationActivity"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal|vertical">
+</appwidget-provider>

@@ -1,0 +1,7 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <include layout="@layout/menu_option_1" />
+
+    <include layout="@layout/menu_option_2" />
+
+</merge>

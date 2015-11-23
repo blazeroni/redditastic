@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:blazeroni="http://schemas.android.com/apk/res/com.blazeroni.reddit.widget"
+    android:title="Settings" >
+
+    <PreferenceCategory android:title="Account" >
+        <PreferenceScreen
+            android:key="account"
+            android:summary="@string/not_signed_in"
+            android:title="Account" >
+            <intent
+                android:targetClass="com.blazeroni.reddit.activity.LoginActivity"
+                android:targetPackage="com.blazeroni.reddit.widget" />
+        </PreferenceScreen>
+
+        <com.blazeroni.reddit.preference.UpdatablePreference
+            android:dependency="account"
+            android:enabled="false"
+            android:key="refresh"
+            android:title="Refresh Subreddits" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Widget Settings" >
+        <ListPreference
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:summary="Light"
+            android:title="Theme" />
+
+        <com.blazeroni.reddit.preference.ImageListPreference
+            android:entries="@array/accent_color_options"
+            android:entryValues="@array/accent_color_values"
+            android:key="accent_color"
+            android:summary="Orangered"
+            android:title="Accent Color"
+            blazeroni:entryImages="@array/accent_color_images" />
+
+        <ListPreference
+            android:entries="@array/post_click_action_options"
+            android:entryValues="@array/post_click_action_values"
+            android:key="widget_click_action"
+            android:summary="Ask Me"
+            android:title="Action When Clicked" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

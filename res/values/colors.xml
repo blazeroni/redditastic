@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_background">#111515</color>
+    <color name="translucent_dark_background">#66000000</color>
+    <color name="overlay_dark_background">#66000000</color>
+    <color name="light_background">#ffffff</color>
+    <color name="dark_text">#000000</color>
+    <color name="light_text">#ffffff</color>
+    
+    <color name="secondary_text">#666666</color>
+    <color name="light_secondary_text">#d6d6d6</color>
+    
+    <color name="list_divider">#d6d6d6</color>
+    <color name="dark_list_divider">#999999</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="ics_blue">#33b5e5</color>
+    <color name="orangered">#ff4500</color>
+</resources>

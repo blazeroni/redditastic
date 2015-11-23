@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="faq_message"><b>What is redditastic?</b>\n\nRedditastic is a customizable home screen widget for reddit. 
+        This portion of the app is used to change
+        shared widget settings.\n\n<b>How do I create a widget?</b>\n\nTo make a widget:\n
+         1. Open your app drawer.\n
+         2. Select the \"Widgets\" tab in the upper left.\n 
+         3. Find redditastic in the list of widgets.\n 
+         4. Drag the widget upward and drop it onto your home screen.\n 
+         5. You will be given the chance to edit the widget name, subreddits, and sorting.
+    </string>
+</resources>    

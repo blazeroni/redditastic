@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">redditastic</string>
+    
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    
+    <string-array name="post_click_action_options">
+        <item>@string/view_comments</item>
+        <item>@string/view_link</item>
+        <item>@string/ask_me</item>
+    </string-array>
+    
+    <string-array name="post_click_action_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    
+    <string-array name="theme_options">
+        <item>@string/light</item>
+        <item>@string/dark</item>
+    </string-array>
+    
+    <string-array name="theme_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    
+    <string-array name="accent_color_options">
+        <item>@string/orangered</item>
+        <item>@string/ics_blue</item>
+        <item>@string/white</item>
+        <item>@string/transparent</item>
+    </string-array>
+    
+    <string-array name="accent_color_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    <array name="accent_color_images">
+        <item>@drawable/color_orangered</item>
+        <item>@drawable/color_ics_blue</item>
+        <item>@drawable/color_white</item>
+        <item>@drawable/color_transparent</item>
+    </array>
+    
+    <string name="sort_whats_hot">What\'s Hot</string>
+    <string name="sort_new_new">New (new)</string>
+    <string name="sort_new_rising">New (rising)</string>
+    <string name="sort_top_hour">Top (this hour)</string>
+    <string name="sort_top_today">Top (today)</string>
+    <string name="sort_top_week">Top (this week)</string>
+    <string name="sort_top_month">Top (this month)</string>
+    <string name="sort_top_year">Top (this year)</string>
+    <string name="sort_top_all_time">Top (all time)</string>
+    <string name="sort_controversial_hour">Controversial (this hour)</string>
+    <string name="sort_controversial_today">Controversial (today)</string>
+    <string name="sort_controversial_week">Controversial (this week)</string>
+    <string name="sort_controversial_month">Controversial (this month)</string>
+    <string name="sort_controversial_year">Controversial (this year)</string>
+    <string name="sort_controversial_all_time">Controversial (all time)</string>
+    
+    <string name="subreddit">subreddit</string>
+    <string name="subreddits_category">SUBREDDITS</string>
+    <string name="sort_category">SORT</string>
+    <string name="add_more">Add more</string>
+    <string name="pick_subreddits">Pick Subreddits</string>
+    <string name="or">or</string>
+    <string name="reddit_front_page">Reddit Front Page</string>
+    <string name="save">Save</string>
+    <string name="set">Set</string>
+    <string name="settings">Settings</string>
+    
+    <string name="loading">Loading…</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="bullet_delimiter">•</string>
+    
+    <string name="error_msg_no_subreddit">Please pick at least one subreddit.</string>
+    <string name="error_title_no_subreddit">No Subreddits</string>
+    <string name="category_name">NAME</string>
+    <string name="front_page_default_name">reddit front page</string>
+    <string name="link">Link</string>
+    <string name="comments">Comments</string>
+    <string name="not_signed_in">Not signed in</string>
+    
+    <string name="view_comments">View Comments</string>
+    <string name="view_link">View Link</string>
+    <string name="ask_me">Ask Me</string>
+    
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+    
+    <string name="ics_blue">ICS Blue</string>
+    <string name="orangered">Orangered</string>
+    <string name="white">White</string>
+    <string name="transparent">Transparent</string>
+    
+    <string name="auto_refresh_frequency">Refresh Frequency</string>
+    <string name="every_x_hours_pre">Every</string>
+    <string name="every_x_hours_post">Hour(s)</string>
+    <plurals name="every_x_hours_post">
+        <item quantity="one">Hour</item>
+        <item quantity="other">Hours</item>
+    </plurals>
+    <plurals name="every_x_hours">
+        <item quantity="one">Every hour</item>
+        <item quantity="other">Every %d hours</item>
+    </plurals>
+    <string name="disabled">Disabled</string>
+    
+    <string name="last_updated_f">Last updated %s</string>
+    <string name="last_updated_now">Last updated moments ago</string>
+    
+    <string name="login_message">Login with your reddit account to view your own reddit front page and to retrieve your subscribed subreddits.</string>
+    <string name="logout_message">Logout from reddit? Widgets showing the reddit front page will revert to the default front page. Customized widgets will remain unchanged.</string>
+    
+    <string name="error_loading">Error loading subreddit\nPlease try again</string>
+    <string name="no_posts">No posts</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    
+    <string name="faq">FAQ</string>
+    <string name="faq_message"><b>What is redditastic?</b>\n\nRedditastic is a customizable home screen widget for reddit. 
+        This portion of the app is used to change 
+        shared widget settings.\n\n<b>How do I create a widget?</b>\n\nTo make a widget:\n 
+         1. Long-press on your home screen.\n 
+         2. Find redditastic in the panel that appears. It may appear at the end of the list instead of alphabetically.\n 
+         3. Tap the widget to add it to your home screen.\n 
+         4. You will be given the chance to edit the widget name, subreddits, and sorting.
+    </string>
+    
+    <string name="close">Close</string>
+</resources>

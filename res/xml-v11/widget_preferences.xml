@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:blazeroni="http://schemas.android.com/apk/res/com.blazeroni.reddit.widget"
+    android:title="Settings" >
+
+    <PreferenceCategory android:title="Widget Settings" >
+        <CheckBoxPreference
+            android:key="auto_refresh_enabled"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Automatic Refresh" />
+        
+        <Preference 
+            android:key="refresh_frequency"
+            android:summary="Every 24 Hours"
+            android:title="Refresh Frequency"
+            android:dependency="auto_refresh_enabled"/>
+
+        <ListPreference
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_values"
+            android:key="theme"
+            android:summary="Light"
+            android:title="Theme" />
+
+        <com.blazeroni.reddit.preference.ImageListPreference
+            android:entries="@array/accent_color_options"
+            android:entryValues="@array/accent_color_values"
+            android:key="accent_color"
+            android:summary="Orangered"
+            android:title="Accent Color"
+            blazeroni:entryImages="@array/accent_color_images" />
+
+        <ListPreference
+            android:entries="@array/post_click_action_options"
+            android:entryValues="@array/post_click_action_values"
+            android:key="widget_click_action"
+            android:summary="Ask Me"
+            android:title="Action When Clicked" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

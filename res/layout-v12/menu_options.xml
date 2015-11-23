@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ViewFlipper
+        android:id="@+id/menu_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/fade_in_menu_1" >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+
+        <include layout="@layout/menu_option_1" />
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/menu_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inAnimation="@anim/fade_in_menu_2" >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone" />
+
+        <include layout="@layout/menu_option_2" />
+    </ViewFlipper>
+
+</merge>

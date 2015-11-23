@@ -1,0 +1,10 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp"
+    android:minHeight="110dp"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/initial"
+    android:configure="com.blazeroni.reddit.widget.WidgetConfigurationActivity"
+    android:previewImage="@drawable/widget_preview"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="keyguard|home_screen">
+</appwidget-provider>

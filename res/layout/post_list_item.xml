@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="@dimen/min_row_height"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:paddingLeft="10dp"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/divider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/score"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/score"
+        android:includeFontPadding="false"
+        android:text="@string/bullet_delimiter"
+        android:textStyle="bold"
+        android:textColor="#999999"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/score"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/divider"
+        android:background="@drawable/ic_comments"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textSize="@dimen/text_size_micro" />
+
+    <TextView
+        android:id="@+id/divider2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/score"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_toRightOf="@id/comments"
+        android:includeFontPadding="false"
+        android:text="@string/bullet_delimiter"
+        android:textStyle="bold"
+        android:textColor="#999999"
+        android:textSize="@dimen/text_size_small" />
+
+    <TextView
+        android:id="@+id/domain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/score"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/divider2"
+        android:ellipsize="start"
+        android:paddingRight="6dp"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_micro"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+         />    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/thumbnail"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:paddingBottom="20dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="@dimen/post_title_text_size" />
+
+</RelativeLayout>
