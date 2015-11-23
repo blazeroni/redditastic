@@ -1,6 +1,6 @@
 # redditastic
 
-This is the source code for [redditastic](https://play.google.com/store/apps/details?id=com.blazeroni.reddit.widget), a Reddit widget available on the Google play store.
+This is the source code for [redditastic](https://play.google.com/store/apps/details?id=com.blazeroni.reddit.widget), an Android widget for Reddit available on the Google play store.
 
 ### 
 
